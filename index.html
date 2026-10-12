@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Psi Squared | The sight for the site</title>
+  <meta name="description" content="Psi Squared mounts 3D vision on the excavator, so every buried pipe and conduit is mapped before the trench is closed.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/hero-excavation.jpg" media="(min-width: 721px)">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Logo mark, reused in nav and footer. Recreated from "Media/Company Logo.jpg";
+       replace with the official SVG export when available. -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="psi-mark" viewBox="0 0 120 100">
+      <g fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 26H22L31 92H89L98 26H116"/>
+        <path d="M29 72H91"/>
+        <path d="M60 8V75"/>
+        <path d="M38 10C42 13 43 18 43 26C43 41 50 50 60 50C70 50 77 41 77 26C77 18 78 13 82 10"/>
+        <circle cx="42" cy="82" r="5.5"/><circle cx="60" cy="82" r="5.5"/><circle cx="78" cy="82" r="5.5"/>
+        <path d="M47.5 82H54.5M65.5 82H72.5"/>
+      </g>
+      <text x="92" y="20" fill="currentColor" font-family="Montserrat, sans-serif" font-weight="700" font-size="17">2</text>
+    </symbol>
+  </svg>
+
+  <header class="nav" data-nav>
+    <div class="nav__inner">
+      <a class="brand" href="#top" aria-label="Psi Squared home">
+        <svg class="brand__mark" aria-hidden="true"><use href="#psi-mark"/></svg>
+        <span class="brand__word">Psi Squared</span>
+      </a>
+      <nav class="nav__links" id="nav-links" aria-label="Primary">
+        <a href="#how">How it works</a>
+        <a href="#product">Product</a>
+        <a href="#team">Team</a>
+      </nav>
+      <div class="nav__actions">
+        <a class="btn btn--accent btn--sm" href="#contact">Map my site</a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu" data-nav-toggle>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 1. Hero -->
+    <section class="hero" id="top">
+      <div class="hero__frame">
+        <picture>
+          <source media="(max-width: 720px)" srcset="assets/img/hero-excavation-sm.jpg">
+          <img class="hero__img" src="assets/img/hero-excavation.jpg" width="1536" height="1024"
+               alt="An excavator digging a utility trench at dawn beside a steel-frame building under construction">
+        </picture>
+        <div class="hero__content">
+          <h1 class="hero__title">The sight<br>for the site.</h1>
+          <div class="hero__ctas">
+            <a class="btn btn--accent" href="#contact">Map my site</a>
+            <a class="btn btn--glass" href="#how">See how it works</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. The problem: scroll-driven backfill -->
+    <section class="problem" data-problem aria-labelledby="problem-title">
+      <div class="problem__sticky">
+        <div class="container problem__grid">
+          <div class="problem__text">
+            <h2 id="problem-title" class="h2">Once it's buried, it's gone.</h2>
+            <p class="bignum"><span data-count="83.2" data-prefix="$" data-suffix="B" data-decimals="1">$83.2B</span></p>
+            <p class="bignum__label">What underground utility damage costs the U.S. every year.</p>
+            <div class="answer">
+              <svg class="answer__mark" aria-hidden="true"><use href="#psi-mark"/></svg>
+              <div>
+                <p>Psi Squared pairs 811 locates with as-builts from past projects, so your crew knows what's in the ground before they dig. Each new run is captured as it goes in and saved to one shared project record.</p>
+                <ul class="answer__outcomes">
+                  <li>Fewer utility strikes</li>
+                  <li>Fewer rework loops, faster decisions</li>
+                  <li>Real cost savings</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <figure class="wipe" data-wipe>
+            <img class="wipe__img" src="assets/img/trench-open.jpg" width="1000" height="1500" loading="lazy"
+                 alt="Open trench with orange and gray conduits laid on spacers, a pink-flagged survey stake beside it">
+            <img class="wipe__img wipe__top" src="assets/img/trench-backfilled.jpg" width="1000" height="1500" loading="lazy"
+                 alt="The same trench after backfill, conduits no longer visible">
+            <span class="wipe__label wipe__label--open">Open trench</span>
+            <span class="wipe__label wipe__label--closed">Backfilled</span>          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. How it works: dark, highlighted -->
+    <section class="how" id="how" aria-labelledby="how-title">
+      <div class="how__frame">
+        <div class="container">
+          <span class="tag tag--dark">How it works</span>
+          <h2 id="how-title" class="h2">No new crew.</h2>
+          <ol class="steps">
+            <li class="step" data-reveal>
+              <span class="step__num">01</span>
+              <span class="step__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="3" y="7" width="14" height="10" rx="2.5"/><circle cx="10" cy="12" r="2.6"/><path d="M17 10.5l4-2v7l-4-2"/></svg>
+              </span>
+              <h3 class="step__title">Mount</h3>
+              <p>A sensor kit mounts on the equipment already on your job site.</p>
+            </li>
+            <li class="step step--demo" data-reveal>
+              <button class="step__demo" type="button" data-demo-open aria-haspopup="dialog" aria-label="Play the product demo">
+                <img src="assets/img/trench-open.jpg" width="1000" height="1500" loading="lazy" alt="">
+                <span class="step__play" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg>
+                </span>
+              </button>
+              <span class="step__num">02</span>
+              <h3 class="step__title">Demo</h3>
+              <p>Watch the excavator map a trench in 3D as it digs.</p>
+            </li>
+            <li class="step" data-reveal>
+              <span class="step__num">03</span>
+              <span class="step__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="5" y="3.5" width="14" height="17" rx="2.5"/><path d="M9 12.5l2.2 2.2L15.5 10"/></svg>
+              </span>
+              <h3 class="step__title">Sign off</h3>
+              <p>Your team approves the trench the same day, before backfill.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Product capabilities -->
+    <section class="section" id="product" aria-labelledby="product-title">
+      <div class="container">
+        <span class="tag">Product</span>
+        <h2 id="product-title" class="visually-hidden">Product</h2>
+        <div class="truth" data-reveal>
+          <h3 class="truth__title">One record for the whole job.</h3>
+          <p>Field, superintendent, VDC and owner work from the same as-built data: what was installed, where and when. Fewer RFIs, faster approvals.</p>
+        </div>
+        <ul class="caps">
+          <li class="cap" data-reveal>
+            <span class="cap__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3l7 3v5.5c0 4.4-3 8-7 9.5-4-1.5-7-5.1-7-9.5V6z"/><path d="M12 8.5v4.5M12 16v.01"/></svg>
+            </span>
+            <h3 class="cap__title">Safety assurance</h3>
+            <p>Flags safety-critical objects near the trench and keeps a time-stamped record of the work, supporting liability and insurance claims.</p>
+          </li>
+          <li class="cap" data-reveal>
+            <span class="cap__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 19h16"/><path d="M6 15l4-4 3 3 5-6"/><path d="M15 8h3v3"/></svg>
+            </span>
+            <h3 class="cap__title">Progress monitoring</h3>
+            <p>Installed footage tracked shift by shift, straight from the equipment.</p>
+          </li>
+          <li class="cap" data-reveal>
+            <span class="cap__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="3.5" y="6.5" width="11" height="11" rx="2"/><rect x="9.5" y="3.5" width="11" height="11" rx="2"/><path d="M12 12l1.6 1.6L17 10"/></svg>
+            </span>
+            <h3 class="cap__title">As-built verification</h3>
+            <p>Field-captured 3D as-built checked against your design model. Out-of-tolerance runs flagged before backfill.</p>
+          </li>
+          <li class="cap" data-reveal>
+            <span class="cap__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3l8 4.5-8 4.5-8-4.5z"/><path d="M4 12l8 4.5 8-4.5"/><path d="M4 16.5L12 21l8-4.5"/></svg>
+            </span>
+            <h3 class="cap__title">Underground digital twin</h3>
+            <p>A georeferenced 3D record of every buried utility.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 5. Digital twin image -->
+    <section class="vision" aria-labelledby="vision-title" data-vision>
+      <div class="vision__frame">
+        <div class="vision__text">
+          <h2 id="vision-title" class="h2">Know what's underground.</h2>
+        </div>
+        <div class="vision__media">
+          <img class="vision__img" src="assets/img/vision-map.jpg" width="1536" height="1024" loading="lazy"
+               alt="Isometric city block with glowing orange and cyan utility lines running beneath the street and buildings">
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Today vs. Psi Squared -->
+    <section class="section" aria-labelledby="vs-title">
+      <div class="container">
+        <span class="tag">Why Psi Squared</span>
+        <h2 id="vs-title" class="h2">Spot checks vs. seeing everything.</h2>
+        <div class="compare">
+          <div class="compare__col">
+            <h3 class="compare__head">Today</h3>
+            <ul class="compare__list compare__list--no">
+              <li data-reveal>Survey crew shoots spot shots in an open trench</li>
+              <li data-reveal>Under 5% of buried work gets checked</li>
+              <li data-reveal>RFIs bounce between field, super and VDC for days</li>
+              <li data-reveal>Floating conduit found at cable pull</li>
+              <li data-reveal>As-builts are redlines, memory and institutional knowledge</li>
+            </ul>
+          </div>
+          <div class="compare__col compare__col--us">
+            <h3 class="compare__head">
+              <svg class="compare__mark" aria-hidden="true"><use href="#psi-mark"/></svg>
+              With Psi Squared
+            </h3>
+            <ul class="compare__list compare__list--yes">
+              <li data-reveal>Full trench captured as it's dug</li>
+              <li data-reveal>Every foot of installed utility on record</li>
+              <li data-reveal>RFIs answered from the shared model</li>
+              <li data-reveal>Deviations flagged before backfill</li>
+              <li data-reveal>Verified 3D as-builts handed over at closeout</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Team -->
+    <section class="section" id="team" aria-labelledby="team-title">
+      <div class="container">
+        <div class="split-head">
+          <div>
+            <span class="tag">Founding team</span>
+            <h2 id="team-title" class="h2">The sight behind the site.</h2>
+          </div>
+        </div>
+        <ul class="team">
+          <li class="person" data-reveal>
+            <img class="person__photo" src="assets/img/yashasvini.jpg" width="400" height="400" loading="lazy" alt="Yashasvini">
+            <h3 class="person__name">Yashasvini</h3>
+            <p class="person__role">Co-founder, CEO</p>
+            <a class="person__link" href="https://www.linkedin.com/in/yashasvinigopalan/" target="_blank" rel="noopener" aria-label="Yashasvini on LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4V21H3zM9.5 9.75h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.6 4.77 6V21h-4v-5c0-1.2-.02-2.73-1.67-2.73-1.67 0-1.93 1.3-1.93 2.64V21h-4z"/></svg>
+            </a>
+          </li>
+          <li class="person" data-reveal>
+            <img class="person__photo" src="assets/img/ashmitha.jpg" width="400" height="400" loading="lazy" alt="Ashmitha">
+            <h3 class="person__name">Ashmitha</h3>
+            <p class="person__role">Co-founder, CTO</p>
+            <a class="person__link" href="https://www.linkedin.com/in/ashjaysiv/" target="_blank" rel="noopener" aria-label="Ashmitha on LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4V21H3zM9.5 9.75h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.6 4.77 6V21h-4v-5c0-1.2-.02-2.73-1.67-2.73-1.67 0-1.93 1.3-1.93 2.64V21h-4z"/></svg>
+            </a>
+          </li>
+          <li class="person" data-reveal>
+            <img class="person__photo" src="assets/img/pooja.jpg" width="400" height="400" loading="lazy" alt="Pooja">
+            <h3 class="person__name">Pooja</h3>
+            <p class="person__role">Co-founder, COO</p>
+            <a class="person__link" href="https://www.linkedin.com/in/poojakovuri/" target="_blank" rel="noopener" aria-label="Pooja on LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4V21H3zM9.5 9.75h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.6 4.77 6V21h-4v-5c0-1.2-.02-2.73-1.67-2.73-1.67 0-1.93 1.3-1.93 2.64V21h-4z"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 8. Talk to us -->
+    <section class="section section--tight" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact">
+          <div class="contact__pitch">
+            <span class="tag tag--dark">Talk to us</span>
+            <h2 id="contact-title" class="h2">Your next trench is going to be buried. See it first.</h2>
+            <p class="lede">Breaking ground soon? Let's get Psi Squared on your excavator.</p>
+            <span class="contact__ground" aria-hidden="true"></span>
+            <!-- PLACEHOLDER: replace with the real contact address -->
+            <a class="contact__email" href="mailto:hello@psisquared.com">hello@psisquared.com</a>
+          </div>
+
+          <!-- PLACEHOLDER: set data-endpoint to a form service URL (e.g. Formspree) to receive submissions. -->
+          <form class="form" data-form data-endpoint="" novalidate>
+            <div class="form__row">
+              <div class="field">
+                <label for="f-name">Name</label>
+                <input id="f-name" name="name" type="text" autocomplete="name" required>
+                <p class="field__error" id="f-name-err" hidden>Enter your name.</p>
+              </div>
+              <div class="field">
+                <label for="f-email">Email</label>
+                <input id="f-email" name="email" type="email" autocomplete="email" required>
+                <p class="field__error" id="f-email-err" hidden>Enter an email like name@company.com.</p>
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="field">
+                <label for="f-company">Company <span class="field__opt">(optional)</span></label>
+                <input id="f-company" name="company" type="text" autocomplete="organization">
+              </div>
+              <div class="field">
+                <label for="f-role">Role</label>
+                <input id="f-role" name="role" type="text" autocomplete="organization-title">
+              </div>
+            </div>
+            <div class="field">
+              <label for="f-dig">What are you digging for? <span class="field__opt">(optional)</span></label>
+              <textarea id="f-dig" name="digging" rows="3" placeholder="Site type, location, start date"></textarea>
+            </div>
+            <button class="btn btn--accent btn--block" type="submit">Map my site</button>
+            <p class="form__status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a class="brand brand--ink" href="#top" aria-label="Psi Squared home">
+          <svg class="brand__mark" aria-hidden="true"><use href="#psi-mark"/></svg>
+          <span class="brand__word">Psi Squared</span>
+        </a>
+        <p class="footer__tag">The sight for the site.</p>
+      </div>
+      <div class="footer__links">
+        <a href="mailto:hello@psisquared.com">hello@psisquared.com</a>
+        <a href="#contact">Map my site</a>
+        <!-- PLACEHOLDER: link a privacy policy page -->
+        <a href="#">Privacy</a>
+      </div>
+      <p class="footer__copy">© 2026 Psi Squared, San Francisco, California</p>
+    </div>
+  </footer>
+
+  <dialog class="demo" data-demo aria-labelledby="demo-title">
+    <div class="demo__head">
+      <h2 id="demo-title" class="demo__title">Product demo</h2>
+      <button class="demo__close" type="button" data-demo-close aria-label="Close demo">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <!-- PLACEHOLDER: replace .demo__frame contents with the demo video, e.g.
+         <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Psi Squared product demo" allow="fullscreen" allowfullscreen></iframe> -->
+    <div class="demo__frame">
+      <img src="assets/img/vision-map.jpg" width="1536" height="1024" alt="">
+      <p class="demo__soon">Demo video coming soon.</p>
+    </div>
+  </dialog>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
