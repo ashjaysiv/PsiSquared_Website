@@ -1,0 +1,12 @@
+ply
+format binary_little_endian 1.0
+comment PsiSquared snapshot, m, RIGHT_HANDED_Y_UP
+element vertex 48
+property float x
+property float y
+property float z
+property uchar red
+property uchar green
+property uchar blue
+end_header
+Š¸É?	*}¿Èé+Á   ØÌ?¼Ãƒ¿û‰.Á   OiÌ?ƒÑƒ¿cE.Á   ªpÌ?U—ƒ¿~å-Á   5`Ë?ˆR¿Åß.Á   'èË?Æ0¿.Á   Ì?]O¿šJ.Á   ÙÌ? *¿Mï-Á   zßË?@F¿÷Ÿ-Á   ê&Ë?4W¿ ö,Á   'cË?ÒÖ|¿j*/Á   +¤Ë?)}¿”İ.Á   g¾Ë?£ƒ}¿#.Á   =ôË?Æ<}¿×<.Á   ÓAÌ?š`x¿å“/Á   ŞÌ?µBx¿S4/Á   Ì?e]x¿&à.Á   |°Ë?ÀDx¿„.Á   ˆ_Ì?ÛÄs¿ô9/Á   @Ì?áœs¿ÿß.Á   W¤Ë?0Ts¿„.Á   áÏ?O§ˆ¿¾0Á   ÏæÎ?¨çˆ¿4v0Á   e”Î?R‘ˆ¿10Á   ìÏ?+ö†¿°Æ0Á   NúÎ?ßÖ†¿z0Á   FÎ?Œ¿^À0Á   ñGÎ?ù²€¿z‡0Á   ö{Î?Š|}¿1Á   FdÎ?(_}¿Ä0Á   šÎ?±>}¿ }0Á   ¢Î?5B}¿Ì!0Á   İ&Î?²x¿ı1Á   ÓÅÍ?§x¿ùÂ0Á   È×Í?éx¿$t0Á   ¯Í?_w¿a10Á   -ãÎ?s¿©1Á   0Î?“s¿& 1Á   ÒØÍ?µ:s¿¶É0Á   uàÍ?¢¥m¿po0Á   å˜Ñ?-qˆ¿Šk2Á   JëÏ?¤„¿ò1Á   Ë›Ñ?6¿WO3Á   <Ñ?c½|¿K3Á   ŸhÑ?|¿Ğ3Á   ieÑ?T©x¿™3Á   ëÑ?.÷w¿H³2Á   FĞ?8]x¿\2Á   

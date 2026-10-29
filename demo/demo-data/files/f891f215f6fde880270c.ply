@@ -1,0 +1,21 @@
+ply
+format binary_little_endian 1.0
+element vertex 10
+property float x
+property float y
+property float z
+property float f_dc_0
+property float f_dc_1
+property float f_dc_2
+property float opacity
+property float scale_0
+property float scale_1
+property float scale_2
+property float rot_0
+property float rot_1
+property float rot_2
+property float rot_3
+end_header
+õæÀôÕŸ¿ýA)/¿'Ì?¿×º
+¿]AA4ÄÓÀjíÀÂrðÀ>¿üi¬>Ÿ¸?½oÎ>»0èÀoí¡¿¨½)AJ¿ï’¿ìSª¿ÿ3-Ag¼Àã3½ÀµXšÀ×Â¾¬@p?ÖÔ¾Sït½°ñäÀ”l¿æAéìÌ>_ïÖ>*W(¾«0TA±²À:…À%õ“À÷ó½I7Z¾—J{?ý™Î>W‘çÀ©„¡¿BŒ"Ag`³¾Ve·¾-°¿{#A ™À™¬ºÀ“Ü»ÀNÏ>žÉ?¿uÁ°¾(ü??PéÀ¯zÀ0+AåoŸ¿¯I©¿SxÂ¿i½A´‰ÀÙ4NÀ>‰‰ÀÆÇ>Ø™¿µå2¿l
+¾ä—ñÀí±¿&î_A‰=?	y?no¼=©¿ûØ˜ÀYŽÀÕÖ®ÀûÓ<¾’‡N¿öú]>ŽéY¿åÀøgœ¿ÚrAÈNd?Ëd@?°ì‘>}66A¯N­ÀJˆÀ¯Z­À–Ï}½~úI¾$î[?(1?&åÀ„œ¿~wA °6?ƒÈb?ôš>¯y,AÍP©ÀXy…À€[©À„/<æëP¾ˆÚn?µf?ræÀRê¿äAè²2¿X.¿—â.¿VA÷ãÆÀ©°À¡yÂÀ­Ôx¿¾‚Õ>ÎJ>!ç0¾VæÀøÆž¿¬cA¡Mª¾™ ì¾L¿òÊÏ@I¥ÀœŠÀaíÀdk¿›Û>XD> ¶µ=

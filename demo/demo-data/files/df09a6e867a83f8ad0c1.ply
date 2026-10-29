@@ -1,0 +1,12 @@
+ply
+format binary_little_endian 1.0
+comment PsiSquared snapshot, m, RIGHT_HANDED_Y_UP
+element vertex 24
+property float x
+property float y
+property float z
+property uchar red
+property uchar green
+property uchar blue
+end_header
+À„CÀÛnŸ?Âù>ÁZTr8ÿAÀÁŸ?ð^?Á´£¢–<BÀ”Ÿ?=?Á~w‰\¿)À¸š?M5Á‹}®m¼(ÀuÒš?¾5ÁWE\6(ÀŽqš?r5ÁjWsre(ÀÝœ?Zf5Á-.2ˆ´(ÀRœ?¢²5ÁFBI¦(À‚fœ?|b5Á228!	(ÀZñœ?:"4ÁaMWº'À äž?5M4ÁcZ^Šg'ÀSŽ˜?ê5ÁbTˆÔJ'ÀÐù™?j55Á]N_d'ÀÂš?å4ÁYDTA'À44š?Ž»4ÁYBP¶;'À>Šš?¨Y4ÁYHUwM'ÀV&š?’4ÁXOXyL'ÀŸ×œ?Jg4Á95:¯¡'À#Úœ?æ4Á^TZtß%Àì¼š?.4Á94;Ýõ%À•Ö™?da4Á^WoÅ&À†›?TÍ4Á[PPø=&À4E?¹4Á.$*3^%Àk*ž?ƒÎ4Áqll
